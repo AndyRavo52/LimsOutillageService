@@ -1,0 +1,6 @@
+@LimsOutillageService_HostAddress = http://localhost:5213
+
+GET {{LimsOutillageService_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

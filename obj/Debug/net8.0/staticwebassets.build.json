@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "cbNBKMnOGKQaLdNakv93s3I+yaLADlv560BRjfixEfM=",
+  "Source": "LimsOutillageService",
+  "BasePath": "_content/LimsOutillageService",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

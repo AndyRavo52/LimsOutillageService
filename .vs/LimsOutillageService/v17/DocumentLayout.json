@@ -1,0 +1,296 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\.net\\LimsOutillageService\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{100FA350-7FA9-495D-853F-F52B697B20E7}|LimsOutillageService.csproj|d:\\.net\\limsoutillageservice\\dtos\\marquedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{100FA350-7FA9-495D-853F-F52B697B20E7}|LimsOutillageService.csproj|solutionrelative:dtos\\marquedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{100FA350-7FA9-495D-853F-F52B697B20E7}|LimsOutillageService.csproj|d:\\.net\\limsoutillageservice\\dtos\\outillagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{100FA350-7FA9-495D-853F-F52B697B20E7}|LimsOutillageService.csproj|solutionrelative:dtos\\outillagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{100FA350-7FA9-495D-853F-F52B697B20E7}|LimsOutillageService.csproj|d:\\.net\\limsoutillageservice\\models\\outillage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{100FA350-7FA9-495D-853F-F52B697B20E7}|LimsOutillageService.csproj|solutionrelative:models\\outillage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{100FA350-7FA9-495D-853F-F52B697B20E7}|LimsOutillageService.csproj|d:\\.net\\limsoutillageservice\\controllers\\outillagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{100FA350-7FA9-495D-853F-F52B697B20E7}|LimsOutillageService.csproj|solutionrelative:controllers\\outillagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{100FA350-7FA9-495D-853F-F52B697B20E7}|LimsOutillageService.csproj|d:\\.net\\limsoutillageservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{100FA350-7FA9-495D-853F-F52B697B20E7}|LimsOutillageService.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{100FA350-7FA9-495D-853F-F52B697B20E7}|LimsOutillageService.csproj|d:\\.net\\limsoutillageservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{100FA350-7FA9-495D-853F-F52B697B20E7}|LimsOutillageService.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{100FA350-7FA9-495D-853F-F52B697B20E7}|LimsOutillageService.csproj|d:\\.net\\limsoutillageservice\\services\\outillageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{100FA350-7FA9-495D-853F-F52B697B20E7}|LimsOutillageService.csproj|solutionrelative:services\\outillageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{100FA350-7FA9-495D-853F-F52B697B20E7}|LimsOutillageService.csproj|d:\\.net\\limsoutillageservice\\controllers\\marquecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{100FA350-7FA9-495D-853F-F52B697B20E7}|LimsOutillageService.csproj|solutionrelative:controllers\\marquecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{100FA350-7FA9-495D-853F-F52B697B20E7}|LimsOutillageService.csproj|d:\\.net\\limsoutillageservice\\services\\marqueservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{100FA350-7FA9-495D-853F-F52B697B20E7}|LimsOutillageService.csproj|solutionrelative:services\\marqueservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{100FA350-7FA9-495D-853F-F52B697B20E7}|LimsOutillageService.csproj|d:\\.net\\limsoutillageservice\\services\\ioutillageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{100FA350-7FA9-495D-853F-F52B697B20E7}|LimsOutillageService.csproj|solutionrelative:services\\ioutillageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{100FA350-7FA9-495D-853F-F52B697B20E7}|LimsOutillageService.csproj|d:\\.net\\limsoutillageservice\\data\\outillagecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{100FA350-7FA9-495D-853F-F52B697B20E7}|LimsOutillageService.csproj|solutionrelative:data\\outillagecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{100FA350-7FA9-495D-853F-F52B697B20E7}|LimsOutillageService.csproj|d:\\.net\\limsoutillageservice\\services\\imarqueservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{100FA350-7FA9-495D-853F-F52B697B20E7}|LimsOutillageService.csproj|solutionrelative:services\\imarqueservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{100FA350-7FA9-495D-853F-F52B697B20E7}|LimsOutillageService.csproj|d:\\.net\\limsoutillageservice\\mapper\\marquemapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{100FA350-7FA9-495D-853F-F52B697B20E7}|LimsOutillageService.csproj|solutionrelative:mapper\\marquemapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{100FA350-7FA9-495D-853F-F52B697B20E7}|LimsOutillageService.csproj|d:\\.net\\limsoutillageservice\\models\\marque.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{100FA350-7FA9-495D-853F-F52B697B20E7}|LimsOutillageService.csproj|solutionrelative:models\\marque.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{100FA350-7FA9-495D-853F-F52B697B20E7}|LimsOutillageService.csproj|d:\\.net\\limsoutillageservice\\mapper\\outillagemapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{100FA350-7FA9-495D-853F-F52B697B20E7}|LimsOutillageService.csproj|solutionrelative:mapper\\outillagemapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{100FA350-7FA9-495D-853F-F52B697B20E7}|LimsOutillageService.csproj|d:\\.net\\limsoutillageservice\\limsoutillageservice.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{100FA350-7FA9-495D-853F-F52B697B20E7}|LimsOutillageService.csproj|solutionrelative:limsoutillageservice.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 457,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\.net\\LimsOutillageService\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\.net\\LimsOutillageService\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T07:55:38.277Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OutillageController.cs",
+              "DocumentMoniker": "D:\\.net\\LimsOutillageService\\Controllers\\OutillageController.cs",
+              "RelativeDocumentMoniker": "Controllers\\OutillageController.cs",
+              "ToolTip": "D:\\.net\\LimsOutillageService\\Controllers\\OutillageController.cs",
+              "RelativeToolTip": "Controllers\\OutillageController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T09:59:40.112Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Outillage.cs",
+              "DocumentMoniker": "D:\\.net\\LimsOutillageService\\Models\\Outillage.cs",
+              "RelativeDocumentMoniker": "Models\\Outillage.cs",
+              "ToolTip": "D:\\.net\\LimsOutillageService\\Models\\Outillage.cs",
+              "RelativeToolTip": "Models\\Outillage.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAUwBgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T07:12:48.128Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\.net\\LimsOutillageService\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\.net\\LimsOutillageService\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-05T07:34:26.329Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OutillageDto.cs",
+              "DocumentMoniker": "D:\\.net\\LimsOutillageService\\Dtos\\OutillageDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\OutillageDto.cs",
+              "ToolTip": "D:\\.net\\LimsOutillageService\\Dtos\\OutillageDto.cs",
+              "RelativeToolTip": "Dtos\\OutillageDto.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAvwBIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T08:21:10.024Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MarqueDto.cs",
+              "DocumentMoniker": "D:\\.net\\LimsOutillageService\\Dtos\\MarqueDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\MarqueDto.cs",
+              "ToolTip": "D:\\.net\\LimsOutillageService\\Dtos\\MarqueDto.cs",
+              "RelativeToolTip": "Dtos\\MarqueDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T08:21:24.381Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "OutillageService.cs",
+              "DocumentMoniker": "D:\\.net\\LimsOutillageService\\Services\\OutillageService.cs",
+              "RelativeDocumentMoniker": "Services\\OutillageService.cs",
+              "ToolTip": "D:\\.net\\LimsOutillageService\\Services\\OutillageService.cs",
+              "RelativeToolTip": "Services\\OutillageService.cs",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAAAHAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T09:13:07.747Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MarqueController.cs",
+              "DocumentMoniker": "D:\\.net\\LimsOutillageService\\Controllers\\MarqueController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MarqueController.cs",
+              "ToolTip": "D:\\.net\\LimsOutillageService\\Controllers\\MarqueController.cs",
+              "RelativeToolTip": "Controllers\\MarqueController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T06:21:54.505Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MarqueService.cs",
+              "DocumentMoniker": "D:\\.net\\LimsOutillageService\\Services\\MarqueService.cs",
+              "RelativeDocumentMoniker": "Services\\MarqueService.cs",
+              "ToolTip": "D:\\.net\\LimsOutillageService\\Services\\MarqueService.cs",
+              "RelativeToolTip": "Services\\MarqueService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T05:53:56.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IOutillageService.cs",
+              "DocumentMoniker": "D:\\.net\\LimsOutillageService\\Services\\IOutillageService.cs",
+              "RelativeDocumentMoniker": "Services\\IOutillageService.cs",
+              "ToolTip": "D:\\.net\\LimsOutillageService\\Services\\IOutillageService.cs",
+              "RelativeToolTip": "Services\\IOutillageService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T09:11:58.021Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "OutillageContext.cs",
+              "DocumentMoniker": "D:\\.net\\LimsOutillageService\\Data\\OutillageContext.cs",
+              "RelativeDocumentMoniker": "Data\\OutillageContext.cs",
+              "ToolTip": "D:\\.net\\LimsOutillageService\\Data\\OutillageContext.cs",
+              "RelativeToolTip": "Data\\OutillageContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T07:49:33.53Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IMarqueService.cs",
+              "DocumentMoniker": "D:\\.net\\LimsOutillageService\\Services\\IMarqueService.cs",
+              "RelativeDocumentMoniker": "Services\\IMarqueService.cs",
+              "ToolTip": "D:\\.net\\LimsOutillageService\\Services\\IMarqueService.cs",
+              "RelativeToolTip": "Services\\IMarqueService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T05:53:40.588Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MarqueMapper.cs",
+              "DocumentMoniker": "D:\\.net\\LimsOutillageService\\Mapper\\MarqueMapper.cs",
+              "RelativeDocumentMoniker": "Mapper\\MarqueMapper.cs",
+              "ToolTip": "D:\\.net\\LimsOutillageService\\Mapper\\MarqueMapper.cs",
+              "RelativeToolTip": "Mapper\\MarqueMapper.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAEwBkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T09:21:30.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Marque.cs",
+              "DocumentMoniker": "D:\\.net\\LimsOutillageService\\Models\\Marque.cs",
+              "RelativeDocumentMoniker": "Models\\Marque.cs",
+              "ToolTip": "D:\\.net\\LimsOutillageService\\Models\\Marque.cs",
+              "RelativeToolTip": "Models\\Marque.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAUwA8AAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T07:22:47.55Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "OutillageMapper.cs",
+              "DocumentMoniker": "D:\\.net\\LimsOutillageService\\Mapper\\OutillageMapper.cs",
+              "RelativeDocumentMoniker": "Mapper\\OutillageMapper.cs",
+              "ToolTip": "D:\\.net\\LimsOutillageService\\Mapper\\OutillageMapper.cs",
+              "RelativeToolTip": "Mapper\\OutillageMapper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T09:20:10.909Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "LimsOutillageService.http",
+              "DocumentMoniker": "D:\\.net\\LimsOutillageService\\LimsOutillageService.http",
+              "RelativeDocumentMoniker": "LimsOutillageService.http",
+              "ToolTip": "D:\\.net\\LimsOutillageService\\LimsOutillageService.http",
+              "RelativeToolTip": "LimsOutillageService.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-03-05T07:38:03.288Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
