@@ -1,6 +1,6 @@
 ﻿using LimsOutillageService.Data;
 using LimsOutillageService.Dtos;
-using LimsOutillageService.Mappers;
+using LimsOutillageService.Mapper;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -48,5 +48,7 @@ namespace LimsOutillageService.Services
 
             return MarqueMapper.ToDto(marque);
         }
+
+        
     }
 }

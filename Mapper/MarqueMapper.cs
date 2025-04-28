@@ -1,7 +1,7 @@
 ﻿using LimsOutillageService.Dtos;
 using LimsOutillageService.Models;
 
-namespace LimsOutillageService.Mappers
+namespace LimsOutillageService.Mapper
 {
     public static class MarqueMapper
     {

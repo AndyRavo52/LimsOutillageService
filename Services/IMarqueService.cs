@@ -15,5 +15,6 @@ namespace LimsOutillageService.Services
 
         // Récupère une marque par son ID
         Task<MarqueDto> GetMarqueByIdAsync(int id);
+        
     }
 }

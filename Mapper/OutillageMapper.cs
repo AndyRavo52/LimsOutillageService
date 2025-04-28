@@ -1,5 +1,5 @@
 ﻿using LimsOutillageService.Dtos;
-using LimsOutillageService.Mappers;
+using LimsOutillageService.Mapper;
 using LimsOutillageService.Models;
 
 namespace LimsOutillageService.Mapper

@@ -14,13 +14,11 @@ namespace LimsOutillageService.Controllers
     {
         private readonly IOutillageService _outillageService;
 
-        // Injection du service via le constructeur
         public OutillageController(IOutillageService outillageService)
         {
             _outillageService = outillageService;
         }
 
-        // Récupère le nombre total d'outillages
         [HttpGet("total")]
         public async Task<ActionResult<ApiResponse>> GetTotalOutillages()
         {
@@ -35,7 +33,6 @@ namespace LimsOutillageService.Controllers
             });
         }
 
-        // Récupère une liste paginée d'outillages
         [HttpGet]
         public async Task<ActionResult<ApiResponse>> GetOutillages(int position = 1, int pageSize = 10)
         {
@@ -63,7 +60,6 @@ namespace LimsOutillageService.Controllers
             });
         }
 
-        // Récupère un outillage par son ID
         [HttpGet("{id}")]
         public async Task<ActionResult<ApiResponse>> GetOutillage(int id)
         {
@@ -92,7 +88,6 @@ namespace LimsOutillageService.Controllers
             }
         }
 
-        // Crée un nouvel outillage
         [HttpPost]
         public async Task<ActionResult<ApiResponse>> CreateOutillage([FromBody] OutillageDto outillageDto)
         {
@@ -107,7 +102,6 @@ namespace LimsOutillageService.Controllers
             });
         }
 
-        // Met à jour un outillage existant
         [HttpPut("{id}")]
         public async Task<ActionResult<ApiResponse>> UpdateOutillage(int id, [FromBody] OutillageDto outillageDto)
         {
@@ -148,7 +142,6 @@ namespace LimsOutillageService.Controllers
             }
         }
 
-        // Supprime un outillage
         [HttpDelete("{id}")]
         public async Task<ActionResult<ApiResponse>> DeleteOutillage(int id)
         {
@@ -166,6 +159,20 @@ namespace LimsOutillageService.Controllers
             }
 
             return NoContent();
+        }
+
+        [HttpGet("search")]
+        public async Task<ActionResult<ApiResponse>> SearchOutillages([FromQuery] string searchTerm = "")
+        {
+            var results = await _outillageService.SearchOutillagesAsync(searchTerm);
+            return Ok(new ApiResponse
+            {
+                Data = results,
+                ViewBag = null,
+                IsSuccess = true,
+                Message = "Recherche effectuée avec succès.",
+                StatusCode = 200
+            });
         }
     }
 }

@@ -29,6 +29,7 @@ D:\.net\LimsOutillageService\obj\Debug\net8.0\LimsOutillageService.AssemblyInfo.
 D:\.net\LimsOutillageService\obj\Debug\net8.0\LimsOutillageService.csproj.CoreCompileInputs.cache
 D:\.net\LimsOutillageService\obj\Debug\net8.0\LimsOutillageService.MvcApplicationPartsAssemblyInfo.cs
 D:\.net\LimsOutillageService\obj\Debug\net8.0\LimsOutillageService.MvcApplicationPartsAssemblyInfo.cache
+D:\.net\LimsOutillageService\obj\Debug\net8.0\LimsOutillageService.sourcelink.json
 D:\.net\LimsOutillageService\obj\Debug\net8.0\scopedcss\bundle\LimsOutillageService.styles.css
 D:\.net\LimsOutillageService\obj\Debug\net8.0\staticwebassets.build.json
 D:\.net\LimsOutillageService\obj\Debug\net8.0\staticwebassets.development.json

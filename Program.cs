@@ -14,6 +14,15 @@ builder.Services.AddScoped<IOutillageService, OutillageService>();
 
 // Enregistre le service OutillagService
 builder.Services.AddScoped<IMarqueService, MarqueService>();
+// Enregistre le service ReformeOutillagService
+builder.Services.AddScoped<IReformeOutillageService, ReformeOutillageService>();
+// Enregistre le service EntreeOutillagService
+builder.Services.AddScoped<IEntreeOutillageService, EntreeOutillageService>();
+// Enregistre le service FournisseurService
+builder.Services.AddScoped<IFournisseurService, FournisseurService>();
+// Enregistre le service ReportOutillageService
+builder.Services.AddScoped<IReportOutillageService, ReportOutillageService>();
+
 
 // Add services to the container
 builder.Services.AddControllers();

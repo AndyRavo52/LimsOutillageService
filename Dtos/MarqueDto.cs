@@ -8,6 +8,6 @@ namespace LimsOutillageService.Dtos
         public int IdMarque { get; set; }
 
         [JsonPropertyName("designation")]
-        public required string Designation { get; set; }
+        public  string? Designation { get; set; }
     }
 }
