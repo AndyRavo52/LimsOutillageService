@@ -1,3 +1,4 @@
+
 using LimsOutillageService.Data;
 using LimsOutillageService.Dtos;
 using LimsOutillageService.Mapper;
@@ -53,7 +54,6 @@ namespace LimsOutillageService.Services
 
         public async Task<EntreeOutillageDto> CreateEntreeOutillageAsync(EntreeOutillageDto entreeOutillageDto)
         {
-            // Validation des clés étrangères
             if (!await _context.Outillages.AnyAsync(o => o.IdOutillage == entreeOutillageDto.IdOutillage))
             {
                 throw new ArgumentException("L'outillage spécifié n'existe pas.");
@@ -67,7 +67,6 @@ namespace LimsOutillageService.Services
             _context.EntreesOutillage.Add(entreeOutillage);
             await _context.SaveChangesAsync();
 
-            // Recharger l'entité avec les relations pour le DTO
             var createdEntreeOutillage = await _context.EntreesOutillage
                 .Include(eo => eo.Outillage)
                 .Include(eo => eo.Fournisseur)
@@ -79,6 +78,19 @@ namespace LimsOutillageService.Services
             }
 
             return EntreeOutillageMapper.ToDto(createdEntreeOutillage);
+        }
+
+        public async Task<Dictionary<string, decimal>> GetDepensesParMoisAsync(int annee)
+        {
+            return await _context.EntreesOutillage
+                .Where(eo => eo.DateEntree.Year == annee)
+                .GroupBy(eo => new { eo.DateEntree.Year, eo.DateEntree.Month })
+                .Select(g => new
+                {
+                    Periode = $"{g.Key.Year}-{g.Key.Month:D2}",
+                    Total = g.Sum(eo => eo.PrixAchat)
+                })
+                .ToDictionaryAsync(x => x.Periode, x => x.Total);
         }
     }
 }

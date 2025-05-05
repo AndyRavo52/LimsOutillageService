@@ -1,6 +1,6 @@
 using LimsOutillageService.Dtos;
 using LimsOutillageService.Services;
-using LimsUtils.Api; // Supposé existant, comme dans l'exemple
+using LimsUtils.Api;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -14,13 +14,11 @@ namespace LimsOutillageService.Controllers
     {
         private readonly IEntreeOutillageService _entreeOutillageService;
 
-        // Injection du service via le constructeur
         public EntreeOutillageController(IEntreeOutillageService entreeOutillageService)
         {
             _entreeOutillageService = entreeOutillageService;
         }
 
-        // Récupère le nombre total d'entrées d'outillage
         [HttpGet("total")]
         public async Task<ActionResult<ApiResponse>> GetTotalEntreeOutillages()
         {
@@ -35,7 +33,6 @@ namespace LimsOutillageService.Controllers
             });
         }
 
-        // Récupère une liste paginée d'entrées d'outillage
         [HttpGet]
         public async Task<ActionResult<ApiResponse>> GetEntreeOutillages(int position = 1, int pageSize = 5)
         {
@@ -62,7 +59,6 @@ namespace LimsOutillageService.Controllers
             });
         }
 
-        // Récupère une entrée d'outillage par son ID
         [HttpGet("{id}")]
         public async Task<ActionResult<ApiResponse>> GetEntreeOutillage(int id)
         {
@@ -85,13 +81,12 @@ namespace LimsOutillageService.Controllers
                     Data = null,
                     ViewBag = null,
                     IsSuccess = false,
-                    Message = ex.Message, // Ex: "Entrée outillage non trouvée"
+                    Message = ex.Message,
                     StatusCode = 404
                 });
             }
         }
 
-        // Crée une nouvelle entrée d'outillage
         [HttpPost]
         public async Task<ActionResult<ApiResponse>> CreateEntreeOutillage([FromBody] EntreeOutillageDto entreeOutillageDto)
         {
@@ -117,7 +112,7 @@ namespace LimsOutillageService.Controllers
                     Data = null,
                     ViewBag = null,
                     IsSuccess = false,
-                    Message = ex.Message, // Ex: "L'outillage spécifié n'existe pas."
+                    Message = ex.Message,
                     StatusCode = 400
                 });
             }
@@ -132,6 +127,20 @@ namespace LimsOutillageService.Controllers
                     StatusCode = 500
                 });
             }
+        }
+
+        [HttpGet("depenses/mois/{annee}")]
+        public async Task<ActionResult<ApiResponse>> GetDepensesParMois(int annee)
+        {
+            var depenses = await _entreeOutillageService.GetDepensesParMoisAsync(annee);
+            return Ok(new ApiResponse
+            {
+                Data = depenses,
+                ViewBag = null,
+                IsSuccess = true,
+                Message = "Dépenses des outillages par mois récupérées avec succès.",
+                StatusCode = 200
+            });
         }
     }
 }
