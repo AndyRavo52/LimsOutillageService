@@ -1,11 +1,7 @@
 D:\.net\LimsOutillageService\bin\Debug\net8.0\LimsOutillageService.exe
 D:\.net\LimsOutillageService\bin\Debug\net8.0\LimsOutillageService.dll
 D:\.net\LimsOutillageService\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
-D:\.net\LimsOutillageService\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-D:\.net\LimsOutillageService\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
 D:\.net\LimsOutillageService\bin\Debug\net8.0\Microsoft.OpenApi.dll
-D:\.net\LimsOutillageService\bin\Debug\net8.0\MySqlConnector.dll
-D:\.net\LimsOutillageService\bin\Debug\net8.0\Pomelo.EntityFrameworkCore.MySql.dll
 D:\.net\LimsOutillageService\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
 D:\.net\LimsOutillageService\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 D:\.net\LimsOutillageService\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll

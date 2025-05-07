@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace LimsOutillageService.Models
 {
-    [Table("entree_outillage")]
+    [Table("Entree_outillage")]
     public class EntreeOutillage
     {
         [Key]

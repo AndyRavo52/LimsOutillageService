@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace LimsOutillageService.Models
 {
-    [Table("fournisseur")]
+    [Table("Fournisseur")]
     public class Fournisseur
     {
         [Key]

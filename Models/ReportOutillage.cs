@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace LimsOutillageService.Models
 {
-    [Table("report_outillage")]
+    [Table("Report_outillage")]
     public class ReportOutillage
     {
         [Key]
